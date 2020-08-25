@@ -1,0 +1,53 @@
+body{
+  color: #fafafa;
+  text-align: center;
+  font-family: 'Josefin Slab', serif;
+}
+
+footer{
+  background-color: #303a52;
+  padding: 1%;
+}
+
+.row{
+  margin: 0;
+}
+
+.title1{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  top: 0;
+  background-color: #9e579d;
+  text-align: center;
+  padding: 18% 0;
+}
+
+.title2{
+  background-color: #9e579d;
+  text-align: center;
+  padding: 18% 0;
+}
+
+
+.btn{
+  margin: 2% 0;
+  background-color: #2b2e4a;
+  border-color: #e84545;
+}
+
+.btn:hover{
+  background-color: #e84545;
+  border-color: #2b2e4a;
+}
+
+.btn:focus{
+  background-color: #e84545;
+  border-color: #2b2e4a;
+}
+.summary{
+  padding: 10% 0;
+  color: #fafafa;
+  background-color: #303a52;
+}
