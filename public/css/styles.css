@@ -1,38 +1,60 @@
-body{
+html, body{
   color: #fafafa;
   text-align: center;
   font-family: 'Josefin Slab', serif;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+h1{
+  font-size: 2rem;
+}
+
+p{
+  background-color: black;
+  width: 20%;
+  margin: 0 auto;
+  background-color: rgba(52, 100, 235, 0.8);
+  padding: 0.5rem;
+  border-radius: 1rem;
 }
 
 footer{
   background-color: #303a52;
-  padding: 1%;
+  padding: 1rem;
 }
 
 .row{
   margin: 0;
 }
 
+.text-bg{
+  background-color: rgba(52, 100, 235, 0.8);
+  width: 60rem;
+  margin: 0 auto;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
 .title1{
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  top: 0;
-  background-color: #9e579d;
+  background-image: url("../book-bg.jpg");
   text-align: center;
-  padding: 18% 0;
+  padding: 15rem 0;
+  min-height: 100%;
 }
 
 .title2{
-  background-color: #9e579d;
+  background-image: url("../book-bg.jpg");
   text-align: center;
-  padding: 18% 0;
+  padding: 15rem 0;
+  min-height: 100%;
 }
 
 
 .btn{
-  margin: 2% 0;
+  margin: 2rem 0;
   background-color: #2b2e4a;
   border-color: #e84545;
 }
@@ -47,7 +69,25 @@ footer{
   border-color: #2b2e4a;
 }
 .summary{
-  padding: 10% 0;
+  padding: 10rem 2rem;
   color: #fafafa;
   background-color: #303a52;
+}
+
+@media (max-width: 1200px){
+  h1{
+    font-size: 1.5rem;
+  }
+  .text-bg{
+    width: 80%;
+  }
+}
+
+@media (max-width: 600px){
+  h1{
+    font-size: 1.2rem;
+  }
+  p{
+    width: 60%;
+  }
 }
